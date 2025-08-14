@@ -15,12 +15,11 @@ The exact commands that worked for my Windows setup, showing the virtual env act
 
 
 
-##  File Structure
-├── main.py # Core application logic
-├── vector.py # Vector database setup
-├── customer1000.csv # Sample customer dataset
-├── requirements.txt # Python dependencies
-└── README.md # This documentation
+## File Structure  
+├── main.py            # interaction and LLM logic  
+├── vector.py          # vector database setup  
+├── customer1000.csv   # dataset  
+└── requirements.txt   # dependencies
 
 ## 1. Dataset (`customer1000.csv`)
 Contains realistic customer records with these columns:
