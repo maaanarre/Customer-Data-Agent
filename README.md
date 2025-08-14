@@ -5,6 +5,15 @@ I implemented this using Ollama with `llama3.1:8b` for the LLM and `mxbai-embed-
 
 <img width="939" height="730" alt="Capture d'écran 2025-08-10 142654" src="https://github.com/user-attachments/assets/21d4153b-3980-4232-8a56-963bf9a4a268" />
 
+**Virtual Environment Setup**  
+Same terminal flow I used: 
+<img width="1205" height="247" alt="demo2" src="https://github.com/user-attachments/assets/e683d803-335f-4d47-8fe1-940542195b6c" />
+The exact commands that worked for my Windows setup, showing the virtual env activation and package installation.
+
+**Results**  
+<img width="1526" height="333" alt="result" src="https://github.com/user-attachments/assets/2ae243be-2550-4395-ae59-6f8485ca0565" />
+
+
 
 ##  File Structure
 ├── main.py # Core application logic
@@ -63,9 +72,9 @@ Transforms structured customer data into a searchable vector database for AI-pow
 | Component | Implementation Details |
 |-----------|------------------------|
 | LLM Backend | Ollama with custom-tuned `llama3.1:8b` |
-| Temperature | 0.3 for business-appropriate determinism |
+| Temperature | 0.3 |
 | Prompt Design | Multi-step verification template |
-| Error Handling | Graceful fallbacks for missing data |
+
 
 ## Integration Flow
 ```mermaid
