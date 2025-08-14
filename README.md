@@ -1,6 +1,12 @@
 # Customer-Data-Agent
 
-## 📂 File Structure
+
+I implemented this using Ollama with `llama3.1:8b` for the LLM and `mxbai-embed-large` for embeddings - the perfect combo for my laptop's performance. Here's how to get the models running locally after installing Ollama from https://ollama.com/download:
+
+<img width="939" height="730" alt="Capture d'écran 2025-08-10 142654" src="https://github.com/user-attachments/assets/21d4153b-3980-4232-8a56-963bf9a4a268" /><img width="939" height="730" alt="Capture d'écran 2025-08-10 142654" src="https://github.com/user-attachments/assets/21d4153b-3980-4232-8a56-963bf9a4a268" />
+
+
+##  File Structure
 ├── main.py # Core application logic
 ├── vector.py # Vector database setup
 ├── customer1000.csv # Sample customer dataset
@@ -69,3 +75,7 @@ graph TD
     C --> D(main.py)
     D --> E[User Queries]
     E --> F[Verified Responses]
+
+
+
+
